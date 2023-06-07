@@ -9,8 +9,8 @@ const About = () => {
         <div className="about-text">
             
             <h2>About Me</h2>
-            <h3>I'm a Passionate <span style={{color: '#000266'}}>Web Designer</span></h3>
-            <p>Enjoy the ultimate web design editor. Divi is like Photoshop or Sketch for the web. It brings an advanced design interface to WordPress that both beginners and experts will fall in love with. It's incredibly smart, super flexible, amazingly powerful and visual by nature. This is how designing for the web is meant to be done.</p>
+            <h3>I'm a Passionate <span style={{color: '#000266'}}>Front-end Developer</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur, eros a dapibus ullamcorper, arcu purus accumsan nunc, nec imperdiet leo lacus sit amet urna. Etiam eu ornare tellus. Praesent sed neque dapibus, ultrices risus in, convallis turpis. Curabitur ornare mauris in pulvinar viverra. Suspendisse elementum, massa molestie blandit lobortis, erat lectus dignissim enim, vel consectetur magna odio in lacus. Fusce commodo et ex vel scelerisque.</p>
             <button>View More Details</button>
         </div>
             

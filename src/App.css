@@ -368,7 +368,7 @@ nav .menu-btn,
 .contact-input a{
 	width:200px;
 	height:35px;
-	background-color:#1db096;
+	background-color:#000266;
 	color:#FFFFFF;
 	display: flex;
 	font-size: 0.9rem;
@@ -454,7 +454,7 @@ nav .menu-btn,
             top:65px;
             left:0px;
             background-color:#FFFFFF;
-            border-bottom:4px solid #1db096;
+            border-bottom:4px solid #000266;
             width:100%;
             padding:0px;
             margin:0px;
