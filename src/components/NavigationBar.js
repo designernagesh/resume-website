@@ -1,3 +1,5 @@
+import {Link} from 'react-scroll';
+
 const NavigationBar = () => {
     return (
         <nav>
@@ -10,14 +12,11 @@ const NavigationBar = () => {
             </label>
 
             <ul className="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><Link to="main">Home</Link></li>
+                <li><Link to="about">About</Link></li>
+                <li><Link to="services">Service</Link></li>
+                <li><Link to="contact">Contact</Link></li>
             </ul>
-
-            <a href="#" className="Hey">Hey!</a>
         </nav>
     )
 }

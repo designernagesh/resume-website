@@ -2,7 +2,7 @@ import NavigationBar from "./NavigationBar";
 
 const Header = () => {
     return (
-        <div className="main">
+        <section id="main">
             <NavigationBar />
             <div className="name">
                 <p className="heading">Looking For a Designer!</p>
@@ -14,7 +14,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="arrow"></div>
-        </div>
+        </section>
     )
 }
 
