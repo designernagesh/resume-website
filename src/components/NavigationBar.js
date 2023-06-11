@@ -12,10 +12,10 @@ const NavigationBar = () => {
             </label>
 
             <ul className="menu">
-                <li><Link to="main">Home</Link></li>
-                <li><Link to="about">About</Link></li>
-                <li><Link to="services">Service</Link></li>
-                <li><Link to="contact">Contact</Link></li>
+                <li><Link to="main" spy={true} smooth={true} duration={500}>Home</Link></li>
+                <li><Link to="about" spy={true} smooth={true} duration={500}>About</Link></li>
+                <li><Link to="services" spy={true} smooth={true} duration={500}>Service</Link></li>
+                <li><Link to="contact" spy={true} smooth={true} duration={500}>Contact</Link></li>
             </ul>
         </nav>
     )
